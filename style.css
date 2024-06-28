@@ -1,0 +1,8 @@
+.card{width:18rem;}
+.card:hover{width:25rem;}
+#cheatsheets{line-height: 70px;}
+@keyframes endtostart{
+    from{transform: translateY(1500px);}
+    to{transform: translateY(20px);}
+}
+#cheatsheets:target{animation:endtostart 2s linear 0s 1 normal;}
